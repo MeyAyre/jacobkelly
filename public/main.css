@@ -31,10 +31,12 @@ body{
     padding: 20px;
     height: 87%;
 }
+.footer{
+    text-align: center;
+    height: 30%;
+}
 
 footer{
-    font-size: 3rem;
-    color: white;
     flex-shrink: 1;
 }
 
@@ -46,3 +48,48 @@ footer > div{
     
 }
 
+header{
+    background-color: black;
+}
+
+.image_header{
+    background-image: url("images/music_background_large.png");
+    height: 40%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-left: -2%;
+}
+
+.image_header > h1{
+    color: white;
+    font-family: "PT Serif";
+    font-style: italic;
+    font-size: 6rem;
+    letter-spacing: 0.25em;
+    margin-left: 4%;
+}
+
+.sect{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.sect > div {
+    margin-left: -5.5%;
+    width: 100%;
+    margin-top: 3%;
+}
+
+section > div > div {
+    padding: 0;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.gal-img{
+    width: 240px;
+    margin: 0 auto;
+}
+section > div > div > h4 {
+    margin-top: 5%;
+}
