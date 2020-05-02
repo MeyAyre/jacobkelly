@@ -1,5 +1,10 @@
 html, body{
     height: 100%;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
 }
 .hero-image{
     background-image: url("images/jake.jpg");
@@ -21,5 +26,23 @@ html, body{
     letter-spacing: 0.25em;
 }
 
-.home-header{
+.content{
+    flex: 1 0 auto;
+    padding: 20px;
+    height: 87%;
 }
+
+footer{
+    font-size: 3rem;
+    color: white;
+    flex-shrink: 1;
+}
+
+footer > div{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin-left: 5%;
+    
+}
+
