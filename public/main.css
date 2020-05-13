@@ -25,6 +25,14 @@ body{
     font-size: 3rem;
     letter-spacing: 0.25em;
 }
+.inject-me{
+    width: 30px;
+    height: 30px;
+}
+
+.header-text{
+    font-size: 2rem;
+}
 
 .content{
     flex: 1 0 auto;
@@ -50,11 +58,11 @@ footer > div{
 
 header{
     background-color: black;
+    height: 5%;
 }
 
 .image_header{
     background-image: url("images/music_background_large.png");
-    height: 40%;
     background-repeat: no-repeat;
     text-align: center;
     margin-left: -2%;
@@ -64,7 +72,6 @@ header{
     color: white;
     font-family: "PT Serif";
     font-style: italic;
-    font-size: 6rem;
     letter-spacing: 0.25em;
     margin-left: 4%;
 }
@@ -90,6 +97,47 @@ section > div > div {
     width: 240px;
     margin: 0 auto;
 }
-section > div > div > h4 {
+section > div > div > a > h4  {
     margin-top: 5%;
+}
+
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.center-square{
+    width: 70%; 
+    margin: 0 auto;
+}
+
+#about-content{
+    width: 50%;
+}
+
+#contact{
+    background-color: grey;
+    width: 50%;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.footer-container{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+.social{
+    width: 40%;
+    margin: 0 auto;
+}
+.social > div{
+    background-color: grey;
+    width: 50px;
+    height: 50px;
 }
